@@ -104,9 +104,15 @@ metadata:
   name: jenkins
   namespace: webapps
 ```
-```bash vi service.yml ```
-```bash kubectl create namespace webapps ```
-```bash kubectl apply -f service.yml ```
+```bash
+vi service.yml
+```
+```bash 
+kubectl create namespace webapps
+```
+```bash 
+kubectl apply -f service.yml
+```
 ### Create Role 
 
 
